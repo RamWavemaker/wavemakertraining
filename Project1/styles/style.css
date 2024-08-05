@@ -1,0 +1,26 @@
+table,tr,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table td .tdverticalmiddle{
+    vertical-align: middle;
+}
+
+.tablecenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,td,h3{
+    text-align: center;
+}
+table{
+    background-color: rgb(227, 220, 220);
+}
+.txtbold{
+    font-weight: bold;
+    background-color: rgb(159, 151, 151);
+}
+.tdbggrey{
+    background-color: rgb(159, 151, 151);
+}
