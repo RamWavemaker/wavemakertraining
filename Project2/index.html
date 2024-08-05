@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="outerdiv">
+            <div>
+                <label for="heading">Create Account</label> 
+            </div>
+            <div class="firstrow labelpaddingleft">  <!-- 2nd div -->
+                <label for="firstname" required>First name<span>*</span></label> <br>
+                <input type="text" class="elemargintop"  name="firstname">
+            </div>
+            <div class="firstrow">   <!-- 3rd div -->
+                <label for="lastname">Last Name</label> <br>
+                <input type="text" class="elemargintop" name="lastname">
+            </div> 
+            <div class="secondrow labelpaddingleft">  <!-- 4th div -->
+                <label for="email" required>Email</label> <br>
+                <input type="text" class="elemargintop">
+            </div>
+            <div class="thirdrow labelpaddingleft">   <!-- 5th div -->
+                <label for="pasword" required>Password</label> <br>
+                <input type="text" class="elemargintop">
+            </div>
+            <div class="thirdrow ">   <!-- 6th div -->
+                <label for="paswordconfirmation">Confirm Password</label> <br>
+                <input type="text" class="elemargintop">
+            </div>
+            <div class="fourthrow labelpaddingleft">   <!-- 7th div -->
+                <label for="gender">Gender</label> <br>
+                <input type="radio" class="elemargintop" name="" id="r1">Male
+                <input type="radio" class="elemargintop" name="" id="r1">Female
+            </div>
+            <div class="fourthrow">   <!-- 8th div -->
+                <label for="hobbies">Hobbies</label> <br>
+                <input class="elemargintop" type="checkbox" id="c1">Music
+                <input class="elemargintop" type="checkbox" id="c1">Sports
+                <input class="elemargintop" type="checkbox" id="c1">Travel
+                <input class="elemargintop" type="checkbox" id="c1">Movies
+            </div>
+            <div class="fifthrow labelpaddingleft">    <!-- 9th div -->
+                <label for="sourceincome">Source of Income</label> <br>
+                <select name="sourceincome" id="incomesrc">
+                    <option value="employed">Employed</option>
+                    <option value="realestate">RealEstate</option>
+                    <option value="student">Student</option>
+                    <option value="stocks">Stocks</option>
+                </select>
+            </div>
+            <div class="fifthrow">    <!-- 10th div -->
+                <label for="income">Income</label> <br>
+                <input type="range" class="elemargintop" name="income" id="range">
+            </div>
+            <div class="sixthrow labelpaddingleft">    <!-- 11th div -->
+                <label for="profilephoto">Profile Photo Picture</label> <br>
+                <input type="file" class="elemargintop" >
+            </div>
+            <div class="sixthrow">    <!-- 12th div -->
+                <label for="age">Age</label> <br>
+                <input type="text" class="elemargintop width100">
+            </div>
+    
+            <div class="seventhrow labelpaddingleft">   <!-- 13th div -->
+                <label for="bio">Bio</label> <br>
+                <textarea name="" id="" ></textarea>
+            </div>
+    
+            <div class="eighthrow">    <!-- 14th div -->
+                <input type="submit" value="Create">
+            </div>
+    </div>
+    </form>
+</body>
+</html>

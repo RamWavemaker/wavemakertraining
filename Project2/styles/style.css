@@ -1,0 +1,106 @@
+.secondrow input,textarea{
+    width: 98%;
+}
+.firstrow,.thirdrow,.fourthrow,.fifthrow,.sixthrow{
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+}
+.secondrow, .seventhrow {
+    padding-left: 11px;
+}
+
+.labelpaddingleft{                      /* this is theupdated */
+    margin-left: 5px;
+}
+
+.elemargintop , .outerdiv div textarea , .outerdiv div select{
+    margin-top: 10px;
+}
+.outerdiv div select, .outerdiv .fifthrow #range{
+    width: 98%;
+}
+.outerdiv{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 8px solid rgb(27, 144, 183);
+}
+
+ .outerdiv  div:nth-child(1){
+    border-radius: 3px;
+    padding: 15px;
+    background-color: aqua;
+    text-align: center;
+ }
+ .eighthrow {
+    text-align: right;
+    background-color: #e07777;
+    padding: 10px;
+    margin-top: 0px;
+}
+ .firstrow input, .thirdrow input, .sixthrow .width100 {
+    width: 98%;
+}
+ @media only screen and (min-width: 350px) and (max-width: 667px) {
+    .outerdiv div:nth-child(2),
+    .outerdiv div:nth-child(3),
+    .outerdiv div:nth-child(4),
+    .outerdiv div:nth-child(5),
+    .outerdiv div:nth-child(6)
+    {
+        display: contents;
+    }
+    .outerdiv div:nth-child(8),
+    .outerdiv div:nth-child(12){
+        display: table-cell;
+        width: 49%;
+    }
+
+    div:nth-child(2) input,
+    div:nth-child(3) input,
+    div:nth-child(4) input,
+    div:nth-child(5) input,
+    div:nth-child(6) input
+    {
+        margin-left: 10px;
+        width: 93%;
+    }
+
+    .sixthrow .width100{
+        width: 99%;
+    }
+    .outerdiv .fifthrow {
+        width: 97%;
+    }
+
+    textarea{
+        width: 96%;
+    }
+    div:nth-child(2) label,
+    div:nth-child(3) label,
+    div:nth-child(4) label,
+    div:nth-child(5) label,
+    div:nth-child(6) label{
+        margin-left: 9px;
+    }
+
+    .firstrow input,.secondrow input ,.thirdrow input{
+        margin-bottom: 10px;
+    }
+    
+    .outerdiv div:nth-child(13){
+        display: flow-root;
+    }
+
+
+  .eighthrow {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+
+
+
+
+
