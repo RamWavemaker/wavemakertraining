@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/scripts.js" defer></script>
+</head>
+<body>
+    <form class="form" action="#">
+        <div class="outerdiv">
+            <div>
+                <label for="heading">Create Account</label>
+            </div>
+            <div class="firstrow labelpaddingleft">
+                <label for="firstname">First name<span>*</span></label> <br>
+                <input type="text" class="elemargintop" id="firstname" name="firstname" required>
+            </div>
+            <div class="firstrow">
+                <label for="lastname">Last Name</label> <br>
+                <input type="text" class="elemargintop" id="lastname" name="lastname">
+            </div>
+            <div class="secondrow labelpaddingleft">
+                <label for="email">Email</label> <br>
+                <input type="email" class="elemargintop" id="email" name="email" required>
+            </div>
+            <div class="thirdrow labelpaddingleft">
+                <label for="password">Password</label> <br>
+                <input type="password" class="elemargintop" id="password" name="password" required>
+            </div>
+            <div class="thirdrow">
+                <label for="confirmpassword">Confirm Password</label> <br>
+                <input type="password" class="elemargintop" id="confirmpassword" name="confirmpassword">
+            </div>
+            <div class="fourthrow labelpaddingleft">
+                <label for="gender">Gender</label> <br>
+                <input type="radio" class="elemargintop" id="maleradio" name="gender" value="male">Male
+                <input type="radio" class="elemargintop" id="femaleradio" name="gender" value="female">Female
+            </div>
+            <div class="fourthrow">
+                <label for="hobbies">Hobbies</label> <br>
+                <input class="elemargintop" type="checkbox" id="music" name="hobbies">Music
+                <input class="elemargintop" type="checkbox" id="sports" name="hobbies">Sports
+                <input class="elemargintop" type="checkbox" id="travel" name="hobbies">Travel
+                <input class="elemargintop" type="checkbox" id="movies" name="hobbies">Movies
+            </div>
+            <div class="fifthrow labelpaddingleft">
+                <label for="sourceincome">Source of Income</label> <br>
+                <select id="sourceincome" name="sourceincome">
+                    <option value="employed">Employed</option>
+                    <option value="realestate">Real Estate</option>
+                    <option value="student">Student</option>
+                    <option value="stocks">Stocks</option>
+                </select>
+            </div>
+            <div class="fifthrow">
+                <label for="income">Income</label> <br>
+                <input type="range" class="elemargintop" id="incomerangebar" name="incomerangebar" min="0" max="100000" step="1000">
+                <span id="incomeDisplay">20k</span>
+            </div>
+            <div class="sixthrow labelpaddingleft">
+                <label for="profilephotofile">Profile Photo Picture</label> <br>
+                <input type="file" class="elemargintop" id="profilephotofile" name="profilephotofile">
+            </div>
+            <div class="sixthrow">
+                <label for="age">Age</label> <br>
+                <input type="number" class="elemargintop width100" id="agetext" name="agetext">
+            </div>
+            <div class="seventhrow labelpaddingleft">
+                <label for="bio">Bio</label> <br>
+                <textarea id="biotext" name="biotext"></textarea>
+            </div>
+            <div class="eighthrow">
+                <input type="submit" value="Create" id="submitinput" name="submitinput">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
