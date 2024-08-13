@@ -1,0 +1,19 @@
+.bordercircle{
+    border-radius: 15px;
+}
+hr{
+    color: white;
+}
+.customdivpadding{
+    padding-left: 21px;
+}
+.custominnerdivpadding{
+    padding-bottom: 7px;
+}
+.imgheight{
+    height: 50px;
+    border-radius: 15px;
+}
+.custompaddingtxtright{
+    padding-left: 23px;
+}
