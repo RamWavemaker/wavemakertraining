@@ -1,0 +1,35 @@
+.vertical-navbar {
+            height: 100vh; /* Full viewport height */
+            position: fixed; /* Fixed position to stay in place */
+            top: 0;
+            left: 0;
+            width: 250px; /* Width of the vertical navbar */
+            background-color: #f8f9fa; /* Background color */
+            border-right: 1px solid #dee2e6; /* Optional border */
+            padding-top: 20px; /* Add some padding at the top */
+        }
+        .vertical-navbar .navbar-nav {
+            list-style-type: none; /* Remove default list styling (dots) */
+            padding: 0; /* Remove default padding */
+        }
+        .vertical-navbar .nav-item {
+            margin-bottom: 10px; /* Space between nav items */
+        }
+        .vertical-navbar .btn {
+            width: 100%; /* Make buttons span the full width */
+        }
+        .navbar-brand h3 {
+            margin: 0; /* Remove default margin from the heading */
+            padding: 0 20px; /* Add some padding around the heading */
+        }
+        .content {
+            margin-left: 250px; /* Margin for content to avoid overlapping with the navbar */
+            padding: 20px;
+        }
+        .nav-item{
+            padding-right : 30px;
+            padding-left : 30px;
+        }
+        .leavemanagemenheading{
+            padding-left : 25px;
+        }
