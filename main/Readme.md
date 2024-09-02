@@ -40,7 +40,7 @@ when adding a leave the validations are checked
 ![Screenshot (11)](https://github.com/user-attachments/assets/28369254-99d3-47b9-9254-4da76cab6133)
 
 logout 
-when logout goes to login page
+when logout button clicked goes to login page
 
 login page
 
